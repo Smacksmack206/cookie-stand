@@ -52,6 +52,10 @@ function totalSumOfCookies() {
 //Display name of Seattle Store//
 document.getElementById("seattleList").innerHTML = "The Seattle Store";
 
+let colorSeattle = document.getElementById('seattleList');
+
+colorSeattle.style.color = '#41858b';
+
 //Runs the method I created in the seattle object that creates the unordered list and iterates the theoretical cookies for each hour on the page.//
 seattle.displayOnPage();
 
@@ -118,6 +122,9 @@ function totalSumOfCookies() {
 }
 //Display name of Tokyo Store//
 document.getElementById("tokyoList").innerHTML = "The Tokyo Store";
+let colorTokyo = document.getElementById('tokyoList');
+
+colorTokyo.style.color = '#b6c6b5';
 
 //Runs the method I created in the tokyo object that creates the unordered list and iterates the theoretical cookies for each hour on the page.//
 tokyo.displayOnPage();
@@ -167,6 +174,9 @@ function totalSumOfCookies() {
 }
 //Display name of Dubai Store//
 document.getElementById("DubaiList").innerHTML = "The Dubai Store";
+let colorDubai = document.getElementById('DubaiList');
+
+colorDubai.style.color = '#ebd0a8';
 
 //Runs the method I created in the Dubai object that creates the unordered list and iterates the theoretical cookies for each hour on the page.//
 Dubai.displayOnPage();
@@ -216,8 +226,11 @@ function totalSumOfCookies() {
 }
 //Display name of Paris Store//
 document.getElementById("ParisList").innerHTML = "The Paris Store";
+let colorParis = document.getElementById('ParisList');
 
-//Runs the method I created in the Dubai object that creates the unordered list and iterates the theoretical cookies for each hour on the page.//
+colorParis.style.color = '#b37163';
+
+//Runs the method I created in the Paris object that creates the unordered list and iterates the theoretical cookies for each hour on the page.//
 Paris.displayOnPage();
 
 
@@ -267,5 +280,9 @@ function totalSumOfCookies() {
 //Display name of Lima Store//
 document.getElementById("LimaList").innerHTML = "The Lima Store";
 
-//Runs the method I created in the Dubai object that creates the unordered list and iterates the theoretical cookies for each hour on the page.//
+let colorLima = document.getElementById('LimaList');
+
+colorLima.style.color = '#9200a8';
+
+//Runs the method I created in the Lima object that creates the unordered list and iterates the theoretical cookies for each hour on the page.//
 Lima.displayOnPage();

@@ -1,0 +1,47 @@
+p {
+    font-size: larger;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(107, 255, 2);
+}
+
+h1 {
+    color: crimson;
+    background-color: black;
+}
+
+h4 {
+    color: brown;
+}
+
+body {
+    background: rgba(3, 19, 84, 0.44);
+}
+
+#seattleList {
+   border-style: double; 
+   background: rgba(0, 0, 0, 0.412);
+}
+
+li {
+    color: chartreuse;
+}
+
+#tokyoList {
+    border-style: double; 
+    background: rgba(0, 0, 0, 0.412);
+ }
+
+ #DubaiList {
+    border-style: double; 
+    background: rgba(0, 0, 0, 0.412);
+ }
+
+ #ParisList {
+    border-style: double; 
+    background: rgba(0, 0, 0, 0.412);
+ }
+
+ #LimaList {
+    border-style: double; 
+    background: rgba(0, 0, 0, 0.412);
+ }

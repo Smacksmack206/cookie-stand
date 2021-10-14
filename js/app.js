@@ -21,12 +21,12 @@ let seattle = {
     displayOnPage: function () {
         let sum = 0;
         for (let i = 0; i < hours.length; i++) {
-        let li = document.createElement('li');
-        li.textContent = `${hours[i]} ` + ` ${this.getCookieSalesPerHour()}` + `  cookies`;
-        seattleStore.appendChild(li);
-        this.cookiesSoldEachHourArray.push(this.getCookieSalesPerHour());
-        sum += this.cookiesSoldEachHourArray[i];
-        console.log(sum);
+            let li = document.createElement('li');
+            li.textContent = `${hours[i]} ` + ` ${this.getCookieSalesPerHour()}` + `  cookies`;
+            seattleStore.appendChild(li);
+            this.cookiesSoldEachHourArray.push(this.getCookieSalesPerHour());
+            sum += this.cookiesSoldEachHourArray[i];
+            console.log(sum);
         }
         let liTotal = document.createElement('li');
         liTotal.textContent = `Total cookies ` + sum;
@@ -41,7 +41,7 @@ function totalSumOfCookies() {
         totalSum += seattle.cookiesSoldEachHourArray[i];
         console.log(seattle.cookiesSoldEachHourArray[i]);
         return totalSum;
-}
+    }
 }
 // Loop for 6am to 7pm for hours. push values back to cookies sold per hour array //
 // for (let i = 0; i < 13; i++) {
@@ -49,8 +49,8 @@ function totalSumOfCookies() {
 //     seattle.displayOnPage();
 // }
 
-//Display name of Seattle Store//
-document.getElementById("seattleList").innerHTML = "The Seattle Store";
+// //Display name of Seattle Store//
+// document.getElementById("seattleList").innerHTML = "The Seattle Store";
 
 let colorSeattle = document.getElementById('seattleList');
 
@@ -98,12 +98,12 @@ let tokyo = {
     displayOnPage: function () {
         let sum = 0;
         for (let i = 0; i < hours.length; i++) {
-        let li = document.createElement('li');
-        li.textContent = `${hours[i]} ` + ` ${this.getCookieSalesPerHour()}` + `  cookies`;
-        tokyoStore.appendChild(li);
-        this.cookiesSoldEachHourArray.push(this.getCookieSalesPerHour());
-        sum += this.cookiesSoldEachHourArray[i];
-        console.log(sum);
+            let li = document.createElement('li');
+            li.textContent = `${hours[i]} ` + ` ${this.getCookieSalesPerHour()}` + `  cookies`;
+            tokyoStore.appendChild(li);
+            this.cookiesSoldEachHourArray.push(this.getCookieSalesPerHour());
+            sum += this.cookiesSoldEachHourArray[i];
+            console.log(sum);
         }
         let liTotal = document.createElement('li');
         liTotal.textContent = `Total cookies ` + sum;
@@ -118,10 +118,10 @@ function totalSumOfCookies() {
         totalSum += tokyo.cookiesSoldEachHourArray[i];
         console.log(tokyo.cookiesSoldEachHourArray[i]);
         return totalSum;
+    }
 }
-}
-//Display name of Tokyo Store//
-document.getElementById("tokyoList").innerHTML = "The Tokyo Store";
+// //Display name of Tokyo Store//
+// document.getElementById("tokyoList").innerHTML = "The Tokyo Store";
 let colorTokyo = document.getElementById('tokyoList');
 
 colorTokyo.style.color = '#b6c6b5';
@@ -150,12 +150,12 @@ let Dubai = {
     displayOnPage: function () {
         let sum = 0;
         for (let i = 0; i < hours.length; i++) {
-        let li = document.createElement('li');
-        li.textContent = `${hours[i]} ` + ` ${this.getCookieSalesPerHour()}` + `  cookies`;
-        DubaiStore.appendChild(li);
-        this.cookiesSoldEachHourArray.push(this.getCookieSalesPerHour());
-        sum += this.cookiesSoldEachHourArray[i];
-        console.log(sum);
+            let li = document.createElement('li');
+            li.textContent = `${hours[i]} ` + ` ${this.getCookieSalesPerHour()}` + `  cookies`;
+            DubaiStore.appendChild(li);
+            this.cookiesSoldEachHourArray.push(this.getCookieSalesPerHour());
+            sum += this.cookiesSoldEachHourArray[i];
+            console.log(sum);
         }
         let liTotal = document.createElement('li');
         liTotal.textContent = `Total cookies ` + sum;
@@ -170,10 +170,10 @@ function totalSumOfCookies() {
         totalSum += Dubai.cookiesSoldEachHourArray[i];
         console.log(Dubai.cookiesSoldEachHourArray[i]);
         return totalSum;
-}
+    }
 }
 //Display name of Dubai Store//
-document.getElementById("DubaiList").innerHTML = "The Dubai Store";
+// document.getElementById("DubaiList").innerHTML = "The Dubai Store";
 let colorDubai = document.getElementById('DubaiList');
 
 colorDubai.style.color = '#ebd0a8';
@@ -202,12 +202,12 @@ let Paris = {
     displayOnPage: function () {
         let sum = 0;
         for (let i = 0; i < hours.length; i++) {
-        let li = document.createElement('li');
-        li.textContent = `${hours[i]} ` + ` ${this.getCookieSalesPerHour()}` + `  cookies`;
-        ParisStore.appendChild(li);
-        this.cookiesSoldEachHourArray.push(this.getCookieSalesPerHour());
-        sum += this.cookiesSoldEachHourArray[i];
-        console.log(sum);
+            let li = document.createElement('li');
+            li.textContent = `${hours[i]} ` + ` ${this.getCookieSalesPerHour()}` + `  cookies`;
+            ParisStore.appendChild(li);
+            this.cookiesSoldEachHourArray.push(this.getCookieSalesPerHour());
+            sum += this.cookiesSoldEachHourArray[i];
+            console.log(sum);
         }
         let liTotal = document.createElement('li');
         liTotal.textContent = `Total cookies ` + sum;
@@ -222,10 +222,10 @@ function totalSumOfCookies() {
         totalSum += Paris.cookiesSoldEachHourArray[i];
         console.log(Paris.cookiesSoldEachHourArray[i]);
         return totalSum;
-}
+    }
 }
 //Display name of Paris Store//
-document.getElementById("ParisList").innerHTML = "The Paris Store";
+// document.getElementById("ParisList").innerHTML = "The Paris Store";
 let colorParis = document.getElementById('ParisList');
 
 colorParis.style.color = '#b37163';
@@ -255,12 +255,12 @@ let Lima = {
     displayOnPage: function () {
         let sum = 0;
         for (let i = 0; i < hours.length; i++) {
-        let li = document.createElement('li');
-        li.textContent = `${hours[i]} ` + ` ${this.getCookieSalesPerHour()}` + `  cookies`;
-        LimaStore.appendChild(li);
-        this.cookiesSoldEachHourArray.push(this.getCookieSalesPerHour());
-        sum += this.cookiesSoldEachHourArray[i];
-        console.log(sum);
+            let li = document.createElement('li');
+            li.textContent = `${hours[i]} ` + ` ${this.getCookieSalesPerHour()}` + `  cookies`;
+            LimaStore.appendChild(li);
+            this.cookiesSoldEachHourArray.push(this.getCookieSalesPerHour());
+            sum += this.cookiesSoldEachHourArray[i];
+            console.log(sum);
         }
         let liTotal = document.createElement('li');
         liTotal.textContent = `Total cookies ` + sum;
@@ -275,10 +275,10 @@ function totalSumOfCookies() {
         totalSum += Paris.cookiesSoldEachHourArray[i];
         console.log(Paris.cookiesSoldEachHourArray[i]);
         return totalSum;
-}
+    }
 }
 //Display name of Lima Store//
-document.getElementById("LimaList").innerHTML = "The Lima Store";
+// document.getElementById("LimaList").innerHTML = "The Lima Store";
 
 let colorLima = document.getElementById('LimaList');
 

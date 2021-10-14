@@ -17,7 +17,7 @@ body {
     background: rgba(3, 19, 84, 0.44);
 }
 
-#seattleList {
+div {
    border-style: double; 
    background: rgba(0, 0, 0, 0.412);
 }
@@ -26,12 +26,15 @@ li {
     color: chartreuse;
 }
 
-#tokyoList {
+#seattleid {
     border-style: double; 
     background: rgba(0, 0, 0, 0.412);
+    color: blue;
  }
 
- #DubaiList {
+
+
+ /* #DubaiList {
     border-style: double; 
     background: rgba(0, 0, 0, 0.412);
  }
@@ -44,4 +47,4 @@ li {
  #LimaList {
     border-style: double; 
     background: rgba(0, 0, 0, 0.412);
- }
+ } */ */

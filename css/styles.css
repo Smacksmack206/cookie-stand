@@ -2,6 +2,7 @@ p {
     font-size: larger;
     font-family: 'Roboto', sans-serif;
     color: rgb(107, 255, 2);
+    background-color: black;
 }
 
 h1 {
@@ -14,10 +15,14 @@ h4 {
 }
 
 body {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 10px;
     background: rgba(3, 19, 84, 0.44);
 }
 
 div {
+   display: block;
    border-style: double; 
    background: rgba(0, 0, 0, 0.412);
 }
@@ -26,11 +31,16 @@ li {
     color: chartreuse;
 }
 
-/* #seattleid {
+ul {
+    padding: 30px;
+    border-spacing: 1rem;
+    margin: auto;
+    border-radius: 0.7rem;
     border-style: double; 
     background: rgba(0, 0, 0, 0.412);
     color: blue;
- } */
+    display: block;
+ }
 
 
 

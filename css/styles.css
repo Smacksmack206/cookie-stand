@@ -25,6 +25,7 @@ div {
    display: block;
    border-style: double; 
    background: rgba(0, 0, 0, 0.412);
+   padding: 1rem;
 }
 
 li {
@@ -42,6 +43,18 @@ ul {
     display: block;
  }
 
+ td, tr, th {
+    padding: 1rem;
+    border-style: double;
+    
+ }
+
+ td {
+    border-style: solid;
+    border-width: 0.5rem;
+    border-color: black;
+   
+   }
 
 
  /* #DubaiList {

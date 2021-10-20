@@ -12,6 +12,7 @@ h1 {
 
 h4 {
     color: brown;
+    background-color: black;
 }
 
 body {
@@ -56,6 +57,78 @@ ul {
    
    }
 
+header {
+      position: relative;
+   }
+
+#toplogo {
+   width: 120px;
+   position: absolute;
+}
+
+h2 {
+   color: coral;
+   font-size: x-large;
+   background-color: black;
+}
+
+#cutter {
+   width: 250px;
+   height: 250px;
+}
+
+#merchware {
+   width: 250px;
+   height: 250px;
+}
+
+#frosted {
+   width: 250px;
+   height: 250px;
+}
+
+#schooloffish {
+   width: 250px;
+   height: 250px;
+}
+
+#lastfish {
+   width: 560px;
+   height: 250px;
+}
+
+#first-img-container {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+
+}
+
+#second-img-container {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+
+}
+
+h3 {
+   font-size: xx-large;
+}
+/* #cuttertalk {
+   
+   width: 270px;
+}
+
+#frostedtalk {
+   display: flex;
+   width: 270px;
+   
+}
+
+#merchtalk {
+   float: right;
+   width: 270px;
+} */
 
  /* #DubaiList {
     border-style: double; 

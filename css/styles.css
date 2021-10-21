@@ -13,6 +13,7 @@ h1 {
 h4 {
     color: brown;
     background-color: black;
+    font-family: Georgia, serif;
 }
 
 body {
@@ -20,6 +21,7 @@ body {
     margin-bottom: auto;
     padding: 10px;
     background: rgba(3, 19, 84, 0.44);
+    font-family: 'Roboto', sans-serif;
 }
 
 div {

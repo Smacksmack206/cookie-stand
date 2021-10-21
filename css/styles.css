@@ -25,7 +25,7 @@ body {
 div {
    display: block;
    border-style: double; 
-   background: rgba(0, 0, 0, 0.412);
+   /* background: rgba(0, 0, 0, 0.412); */
    padding: 1rem;
 }
 
@@ -67,9 +67,9 @@ header {
 }
 
 h2 {
-   color: coral;
+   color: rgb(0, 103, 36);
    font-size: x-large;
-   background-color: black;
+   /* background-color: black; */
 }
 
 #cutter {
@@ -97,23 +97,86 @@ h2 {
    height: 250px;
 }
 
+#themeholder {
+   background: rgba(0, 0, 0, 0.412);
+}
+
 #first-img-container {
    display: flex;
    flex-direction: row;
    justify-content: space-between;
-
+    background: rgba(0, 0, 0, 0.412);
 }
 
 #second-img-container {
    display: flex;
    flex-direction: row;
    justify-content: space-between;
-
+    background: rgba(0, 0, 0, 0.412);
 }
 
-h3 {
+caption {
    font-size: xx-large;
+   padding-bottom: 1rem;
 }
+
+#operationtable {
+   /* float: right; */
+  
+}
+
+#locationcontainer {
+   background: rgba(0, 0, 0, 0.412);
+}
+
+#hourcontainer {
+   background: rgba(0, 0, 0, 0.412);
+}
+
+#hourtext {
+   /* float: right; */
+   padding-top: 1rem ;
+   color: rgb(255, 255, 255);
+   /* border-style: double; */
+   border-width: 1rem;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   
+}
+
+#landingpage {
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+}
+
+#location {
+   font-size: xx-large;
+   padding-bottom: 1rem;
+   color: rgb(255, 255, 255);
+   /* border-style: double; */
+   border-width: 1rem;
+   padding-bottom: 1rem;
+}
+
+#imgtitle {
+   padding-bottom: 1rem;
+   
+
+}
+
+address {
+   padding-bottom: 1rem;
+}
+
+blockquote {
+   padding-top: 1rem;
+}
+
+#seattleList {
+   background: rgba(0, 0, 0, 0.412);
+}
+
 /* #cuttertalk {
    
    width: 270px;

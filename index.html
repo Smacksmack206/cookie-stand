@@ -5,9 +5,10 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
   </style>
@@ -23,71 +24,57 @@
   <hr>
 </header>
 
-<body>
-  <h2>You'll want to come down and try these Cookies!</h2>
-  <main>
+<body class="p-3 mb-2 bg-secondary text-white">
+  <h2 id="imgtitle">You'll want to come down and try these Cookies!</h2>
+  <main id=landingpage>
+    <img src="img/family.jpeg">
+    <div id="locations">
     <br>
+    <div id="locationcontainer">
     <address>
-      <h3>locations:</h3>
-      Seattle - 2300 Pike .St, Seattle, WA<br>
-      Tokyo - 2300 Urameshi .St, Tokyo, JP<br>
-      Dubai - 2300 Gyron .St, Dubai, UAE<br>
-      Paris - 2300 Oliver .St, Paris, Fr<br>
-      Lima - 2300 Pathagarus .St, Lima, Pr<br>
+      <h3 id="location">Locations:</h3>
+      <p>Seattle - 2300 Pike .St, Seattle, WA</p><br>
+    <p>Tokyo - 2300 Urameshi .St, Tokyo, JP</p><br>
+  <p>Dubai - 2300 Gyron .St, Dubai, UAE</p><br>
+<p>Paris - 2300 Oliver .St, Paris, Fr</p><br>
+<p>Lima - 2300 Pathagarus .St, Lima, Pr</p><br>
     </address>
-
-<hr>
+  </div>
 <br>
-    <table>
-      <h3>Hours of Operation:</h3>
-      <br>
+  <div id="hourcontainer">
+    <h3 id="hourtext">Hours of Operation:</h3>
+    <table id="operationtable" class="table table-dark">
       <tr>
-        <th>Sunday</th>
+        <th><td>Sunday</th></td>
         <td>Closed</td>
       </tr>
       <tr>
-        <th>Monday</th>
+        <th><td>Monday</th></td>
         <td>6 am - 7 pm</td>
       </tr>
       <tr>
-        <th>Tuesday</th>
+        <th><td>Tuesday</th></td>
         <td>6 am - 7 pm</td>
       </tr>
       <tr>
-        <th>Wednesday</th>
+        <th><td>Wednesday</th></td>
         <td>6 am - 7 pm</td>
       </tr>
       <tr>
-        <th>Thursday</th>
+        <th><td>Thursday</th></td>
         <td>6 am - 7 pm</td>
       </tr>
       <tr>
-        <th>Friday</th>
+        <th><td>Friday</th></td>
         <td>6 am - 7 pm</td>
       </tr>
     </table>
-    <hr>
-    <br>
-    <address>
-      <a href="tel:+13115552368">(311) 555-2368</a>
-      <a href="mailto:contact@salmoncookies.com">contact@salmoncookies.com</a><br>
-      <a href="tel:+13115552368">(311) 555-2368</a>
-
-      <a href="mailto:sales@salmoncookies.com">sales@salmoncookies.com</a><br>
-      <a href="tel:+13115552368">(311) 555-2368</a>
-
-      <a href="mailto:clientservices@salmoncookies.com">clientservices@salmoncookies.com</a><br>
-      <a href="tel:+13115552368">(311) 555-2368</a>
-
-      <a href="mailto:support@salmoncookies.zendesk.com">support@salmoncookies.zendesk.com</a><br>
-
-
-    </address>
-
+  </div>
+</div>
   </main>
-  <img src="img/family.jpeg">
-  <p>Halloween themed Salmon Cookies are now available for a limited time at any of our locations worldwide.</p>
+  <blockquote>Halloween themed Salmon Cookies are now available for a limited time at any of our locations worldwide.</blockquote>
   <hr>
+  <div id="themeholder">
   <div id="first-img-container">
     <img id="cutter" src="img/cutter.jpeg">
     <img id="frosted" src="img/frosted-cookie.jpeg">
@@ -98,10 +85,27 @@
     <img id="schooloffish" src="img/fish.jpeg">
     <img id="lastfish" src="img/chinook.jpeg">
   </div>
+
+</div>
   <!-- <p id="cuttertalk">Take Home Our Salmon Cookie Cutters</p>
 <p id="frostedtalk">Try Our Original Receipt Frosted Salmon Cookies!</p>
 <p id="merchtalk">New Shirt In Our Merch Store</p> -->
   <script src="js/app.js"></script>
 </body>
+<hr>
 
+<h2 style="background-color: black;">Contact Us</h2>
+<footer><address class="text-info bg-dark">
+  <a href="tel:+13115552368">(311) 555-2368</a>
+  <a href="mailto:contact@salmoncookies.com">contact@salmoncookies.com</a><br>
+  <a href="tel:+13115552368">(311) 555-2368</a>
+
+  <a href="mailto:sales@salmoncookies.com">sales@salmoncookies.com</a><br>
+  <a href="tel:+13115552368">(311) 555-2368</a>
+
+  <a href="mailto:clientservices@salmoncookies.com">clientservices@salmoncookies.com</a><br>
+  <a href="tel:+13115552368">(311) 555-2368</a>
+
+  <a href="mailto:support@salmoncookies.zendesk.com">support@salmoncookies.zendesk.com</a><br>
+</address></footer>
 </html>

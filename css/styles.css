@@ -127,6 +127,21 @@ caption {
   
 }
 
+#menu2 {
+   float: left;
+}
+
+#family {
+   /* padding-top: 2rem; */
+   font-weight: bolder;
+   
+}
+
+/* #gallary {
+   float: right;
+   width: 50%;
+} */
+
 #locationcontainer {
    background: rgba(0, 0, 0, 0.412);
 }
@@ -163,8 +178,9 @@ caption {
 
 #imgtitle {
    padding-bottom: 1rem;
-   
-
+   /* font-weight: bold; */
+   font-size: xx-large;
+   font: bold;
 }
 
 address {
@@ -177,6 +193,11 @@ blockquote {
 
 #seattleList {
    background: rgba(0, 0, 0, 0.412);
+}
+
+#linkuptop {
+   background-color: rgba(80, 113, 116, 0.099);
+   color: rgb(0, 255, 0);
 }
 
 /* #cuttertalk {

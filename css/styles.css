@@ -1,18 +1,140 @@
+/*Refactored to use .bg class instead of multiple IDs to change background in specfic elements*/
+
+.bg {
+   background: rgba(0, 0, 0, 0.412);
+}
+
+/* #themeholder {
+   background: rgba(0, 0, 0, 0.412);
+} */
+
+
+/* #locationcontainer {
+   background: rgba(0, 0, 0, 0.412);
+} */
+
+/* #hourcontainer {
+   background: rgba(0, 0, 0, 0.412);
+} */
+
+/* #seattleList {
+   background: rgba(0, 0, 0, 0.412);
+} */
+
+/* #divdiv {
+   background: rgba(0, 0, 0, 0.412);
+
+}
+
+#DubaiList {
+    border-style: double; 
+    background: rgba(0, 0, 0, 0.412);
+ }
+
+#ParisList {
+    border-style: double; 
+    background: rgba(0, 0, 0, 0.412);
+ }
+
+#LimaList {
+    border-style: double; 
+    background: rgba(0, 0, 0, 0.412);
+ } */
+
+/*Refactored container IDs below to a class since I seen it repeating the same CSS twice */
+
+.containers {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+    background: rgba(0, 0, 0, 0.412);
+}
+
+/* #first-img-container {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+    background: rgba(0, 0, 0, 0.412);
+}
+
+#second-img-container {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+    background: rgba(0, 0, 0, 0.412);
+} */
+
+/* Refactored the below on image by instead of using IDs use a class instead*/ 
+
+.gallaryphoto {
+   width: 250px;
+   height: 250px; 
+}
+
+/* #cutter {
+   width: 250px;
+   height: 250px;
+}
+
+#merchware {
+   width: 250px;
+   height: 250px;
+}
+
+#frosted {
+   width: 250px;
+   height: 250px;
+}
+
+#schooloffish {
+   width: 250px;
+   height: 250px;
+}
+
+#lastfish {
+   width: 560px;
+   height: 250px;
+} */
+
+/* #gallary {
+   float: right;
+   width: 50%;
+} */
+
+/* #cuttertalk {
+   
+   width: 270px;
+}
+
+#frostedtalk {
+   display: flex;
+   width: 270px;
+   
+}
+
+#merchtalk {
+   float: right;
+   width: 270px;
+} */
+ 
+
 p {
     font-size: larger;
     font-family: 'Roboto', sans-serif;
-    color: rgb(107, 255, 2);
-    background-color: black;
+    color: rgb(255, 255, 255);
+    background-color: #212529;
 }
 
 h1 {
     color: crimson;
-    background-color: black;
+    background-color: rgba(0,0,0,0.6);
 }
+
+
 
 h4 {
     color: brown;
-    background-color: black;
+    background-color: rgba(0,0,0,0.6);
     font-family: Georgia, serif;
 }
 
@@ -64,90 +186,24 @@ header {
    }
 
 #toplogo {
-   width: 120px;
+   width: 135px;
    position: absolute;
 }
 
+#backlogo {
+   margin: 1px;
+   padding: 1px;
+   border-width: 2px;
+   border-style: double;
+   border-color: rgb(121, 255, 246);
+   color: white;
+}
+
 h2 {
-   color: rgb(0, 103, 36);
+   color: rgb(255, 255, 255);
    font-size: x-large;
+   font-weight: bold;
    /* background-color: black; */
-}
-
-#cutter {
-   width: 250px;
-   height: 250px;
-}
-
-#merchware {
-   width: 250px;
-   height: 250px;
-}
-
-#frosted {
-   width: 250px;
-   height: 250px;
-}
-
-#schooloffish {
-   width: 250px;
-   height: 250px;
-}
-
-#lastfish {
-   width: 560px;
-   height: 250px;
-}
-
-#themeholder {
-   background: rgba(0, 0, 0, 0.412);
-}
-
-#first-img-container {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-    background: rgba(0, 0, 0, 0.412);
-}
-
-#second-img-container {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-    background: rgba(0, 0, 0, 0.412);
-}
-
-caption {
-   font-size: xx-large;
-   padding-bottom: 1rem;
-}
-
-#operationtable {
-   /* float: right; */
-  
-}
-
-#menu2 {
-   float: left;
-}
-
-#family {
-   /* padding-top: 2rem; */
-   font-weight: bolder;
-   
-}
-
-/* #gallary {
-   float: right;
-   width: 50%;
-} */
-
-#locationcontainer {
-   background: rgba(0, 0, 0, 0.412);
-}
-
-#hourcontainer {
-   background: rgba(0, 0, 0, 0.412);
 }
 
 #hourtext {
@@ -191,42 +247,77 @@ blockquote {
    padding-top: 1rem;
 }
 
-#seattleList {
-   background: rgba(0, 0, 0, 0.412);
-}
 
 #linkuptop {
    background-color: rgba(80, 113, 116, 0.099);
    color: rgb(0, 255, 0);
 }
 
-/* #cuttertalk {
-   
-   width: 270px;
+.navbar-toggler {
+float: left;
 }
 
-#frostedtalk {
-   display: flex;
-   width: 270px;
+.bg-dark {
+   background-color: #4C5157!important;
+}
+
+.bg-secondary {
+   background-color: #4C5157!important;
+}
+
+footer a {
+   /* background-color: black; */
+}
+
+.text-info {
+   color: #A3C3FF!important;
+}
+
+#storeimg {
+   float: left;
+   margin-right: 2rem;
+}
+
+#aboutText {
+   color: #212529;
+}
+
+fieldset {
+   display: block;
+   margin: 1px;
+   padding: 1px;
+   border-width: 2px;
+   border-style: double;
+   border-color: rgb(158, 250, 255);
+   color: white;
+}
+
+caption {
+   font-size: xx-large;
+   padding-bottom: 1rem;
+}
+
+#menu2 {
+   float: left;
+}
+
+#family {
+   /* padding-top: 2rem; */
+   font-weight: bolder;
    
 }
 
-#merchtalk {
-   float: right;
-   width: 270px;
-} */
+.p-3 {
+   padding: .8rem !important;
+}
 
- /* #DubaiList {
-    border-style: double; 
-    background: rgba(0, 0, 0, 0.412);
- }
+.heading {
+   color: crimson;
+    background-color: rgba(0,0,0,0.6);
+}
+}
 
- #ParisList {
-    border-style: double; 
-    background: rgba(0, 0, 0, 0.412);
- }
-
- #LimaList {
-    border-style: double; 
-    background: rgba(0, 0, 0, 0.412);
- } */ */
+.menu {
+   width: 50%; 
+   height: 50%;
+}
